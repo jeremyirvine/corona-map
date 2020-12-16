@@ -12,6 +12,7 @@ const siteMetadata = {
 };
 
 module.exports = {
+  pathPrefix: '/coron-map',
   siteMetadata,
   plugins: [
     'gatsby-plugin-resolve-src',
@@ -38,6 +39,6 @@ module.exports = {
         start_url: '/',
         icon: 'src/assets/images/react-leaflet-icon.png',
       },
-    },
+    }
   ],
 };

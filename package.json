@@ -1,13 +1,8 @@
 {
-  "name": "gatsby-starter-leaflet",
-  "title": "Gatsby Starter Leaflet",
-  "description": "A Gatsby starter with Leafet!",
-  "version": "0.3.0",
-  "author": {
-    "name": "Colby Fayock",
-    "email": "hello@colbyfayock.com",
-    "url": "https://twitter.com/colbyfayock"
-  },
+  "name": "corona-map",
+  "title": "Coronavirus Map",
+  "version": "0.0.1",
+  "author": "Jeremy Irvine",
   "dependencies": {
     "axios": "^0.21.0",
     "gatsby": "^2.28.2",
@@ -70,7 +65,8 @@
     "serve": "gatsby serve",
     "test": "jest --config ./config/jest.config.js",
     "test:e2e:open": "start-server-and-test develop http://localhost:8000 cy:open",
-    "test:e2e:run": "start-server-and-test develop http://localhost:8000 cy:run"
+    "test:e2e:run": "start-server-and-test develop http://localhost:8000 cy:run",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "husky": {
     "hooks": {
