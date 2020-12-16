@@ -3,6 +3,7 @@
   "title": "Coronavirus Map",
   "version": "0.0.1",
   "author": "Jeremy Irvine",
+  "description": "A map of corona stats by country built w/ react, leaflet, and gatsby",
   "dependencies": {
     "axios": "^0.21.0",
     "gatsby": "^2.28.2",

@@ -12,7 +12,7 @@ const siteMetadata = {
 };
 
 module.exports = {
-  pathPrefix: '/coron-map',
+  pathPrefix: '/corona-map',
   siteMetadata,
   plugins: [
     'gatsby-plugin-resolve-src',
